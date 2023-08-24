@@ -1,0 +1,27 @@
+body{
+    background-color: #966dff;
+}
+section{
+    background-color: whitesmoke;
+    position: relative;
+    margin: 10%;
+    margin-right: 35%;
+    margin-left: 35%;
+    padding: 50px;
+    border-radius: 7px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+section *{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+footer{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+h1{
+    text-align: center;
+}
