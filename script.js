@@ -10,7 +10,10 @@ function fac() {
 }
 function calc() {
     let value = parseFloat(document.querySelector("#factor").value);
-    if (Number.isNaN(value)) return;
+    if (Number.isNaN(value)){
+        res.innerHTML = "";
+        return;
+    }
     if (value % 1 !== 0) {
         res.innerHTML = "There is no factorial of decimals";
         return;
